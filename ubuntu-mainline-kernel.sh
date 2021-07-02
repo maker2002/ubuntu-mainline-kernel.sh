@@ -65,7 +65,7 @@ expected_files_count=6
 run_action="help"
 
 # (internal) The workdir where eg the .deb files are downloaded
-workdir="/tmp/$(basename "$0")/"
+workdir="/home/$(basename "$0")/"
 
 # (internal) The stdio where all detail output should be sent
 debug_target="/dev/null"
